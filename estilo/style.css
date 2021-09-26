@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+    background: linear-gradient(to bottom,blueviolet , transparent);
+    height: 100vh;
+}
+
+.cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: solid 2px rgba(189, 100, 255, .9);
+    justify-content: space-between;
+    
+}
+
+.cabecalho h1 {
+    color: whitesmoke;
+    text-shadow: 0.1em 0.1em 0.3em black;
+}
+
+.menu ul li {
+    text-shadow: 0.1em 0.1em 0.3em black;
+    display: inline-block;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px ;
+    padding: 6px;
+    border-radius: 20px;
+
+}
+
+.menu ul li a {
+    color: rgb(181, 238, 230);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.menu ul li#login, li#regi {
+    font-size: 25px;
+    padding: 5px 8px;
+    background: rgba(245, 245, 245, .6);
+}
+
+.menu ul li:hover {
+    background-color: rgb(255, 255, 240);
+    color: rgb(99, 96, 96);
+    opacity: 0.9;
+    transition: .3s;
+    
+}
