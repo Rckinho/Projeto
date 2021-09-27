@@ -4,9 +4,15 @@
 }
 
 body {
+    display: block;
     background-color: blueviolet;
-    background: linear-gradient(to bottom,blueviolet , transparent);
+    background: linear-gradient(to bottom,blueviolet , rgb(80, 80, 247));
     height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: rgb(189, 189, 181) solid 1px;
+    box-shadow: 0.3em 0.1em 0.3em black;
+    border-radius: 15px;
 }
 
 .cabecalho {
@@ -56,4 +62,30 @@ body {
     opacity: 0.9;
     transition: .3s;
     
+}
+
+main h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-shadow: 00.1em 0.2em 0.3em black;
+    padding: 45px;
+}
+
+main h3 {
+    color: aliceblue;
+    font-size: 20px;
+    text-shadow: 0.1em 0.2em 0.2em black;
+    padding: 15px;
+}
+
+main p {
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 5px;
+    text-shadow: 00.1em 0.1em 0.3em darkgreen;
+    display: grid;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
 }
