@@ -1,22 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
+    width: 1200px;
+    height: 100%;
+    padding: 0 32px;
     display: block;
-    background-color: blueviolet;
-    background: linear-gradient(to bottom,blueviolet , rgb(80, 80, 247));
-    height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: rgb(189, 189, 181) solid 1px;
-    box-shadow: 0.3em 0.1em 0.3em black;
-    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #8F0F8F, #C90CC9) no-repeat;
+
+   
+
 }
 
 .cabecalho {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -46,8 +47,7 @@ body {
 
 .menu ul li a {
     color: rgb(181, 238, 230);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;  
+    text-decoration: none; 
 }
 
 .menu ul li#login, li#regi {
@@ -64,12 +64,16 @@ body {
     
 }
 
+main {
+    display: block;
+}
+
 main h2 {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
     color: blanchedalmond;
     text-shadow: 00.1em 0.2em 0.3em black;
     padding: 45px;
+    text-align: center;
 }
 
 main h3 {
@@ -77,15 +81,21 @@ main h3 {
     font-size: 20px;
     text-shadow: 0.1em 0.2em 0.2em black;
     padding: 15px;
+    text-align: center;
 }
 
 main p {
     color: whitesmoke;
     font-size: 20px;
     padding-left: 5px;
-    text-shadow: 00.1em 0.1em 0.3em darkgreen;
-    display: grid;
-    max-width: 400px;
+    text-shadow: black 0.1em 0.2em 0.3em;
+    display: inline-flex;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 50px;
+
+    
+}
+
+img {
+    max-width: 400px;
 }
